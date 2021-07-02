@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="86c8b66ee10f488ba683a9fa12966e73" Name="Diagram1">
+        <EntityTypeShape EntityType="PruebaStevenModel.Categorias" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PruebaStevenModel.Historial_P" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PruebaStevenModel.Marcas" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PruebaStevenModel.Productos" Width="1.5" PointX="6" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PruebaStevenModel.Proveedores" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <AssociationConnector Association="PruebaStevenModel.FK_Historial_P_Categorias" ManuallyRouted="false" />
+        <AssociationConnector Association="PruebaStevenModel.FK_Productos_Categorias" ManuallyRouted="false" />
+        <AssociationConnector Association="PruebaStevenModel.FK_Historial_P_Marcas" ManuallyRouted="false" />
+        <AssociationConnector Association="PruebaStevenModel.FK_Historial_P_Proveedores" ManuallyRouted="false" />
+        <AssociationConnector Association="PruebaStevenModel.FK_Productos_Marcas" ManuallyRouted="false" />
+        <AssociationConnector Association="PruebaStevenModel.FK_Productos_Proveedores" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
